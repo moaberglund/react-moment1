@@ -1,4 +1,5 @@
 import AppHeader from "./components/AppHeader"
+import AppFooter from "./components/AppFooter"
 
 function App() {
 
@@ -7,6 +8,8 @@ function App() {
     <>
     <AppHeader sitetitle="Home Page" />
       
+
+    <AppFooter />
     </>
   )
 }
