@@ -43,7 +43,7 @@ function Books() {
     ]
 
     return (
-        <div className="display-books">
+        <div style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'space-around', marginBottom: '2em'}}>
             {myBookArray.map((book, index) => {
                 return (
                     <Book
