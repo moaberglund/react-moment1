@@ -1,4 +1,4 @@
-import './Book.css';
+import './Book.scss';
 
 interface BookProps {
     title: string;

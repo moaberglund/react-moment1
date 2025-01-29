@@ -1,4 +1,4 @@
-import './AppHeader.css';
+import './AppHeader.scss';
 
 function AppHeader(props: { sitetitle: string }) {
   return (
