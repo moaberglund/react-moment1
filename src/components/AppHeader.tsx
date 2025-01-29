@@ -1,4 +1,5 @@
 import './AppHeader.scss';
+import HeroImg from '../assets/coffeebanner.jpg';
 
 function AppHeader(props: { sitetitle: string }) {
   return (
@@ -7,7 +8,7 @@ function AppHeader(props: { sitetitle: string }) {
         <h1>{props.sitetitle}</h1>
       </div>
       <div className='hero-img'>
-
+        <img src={HeroImg} alt='Coffee banner' />
       </div>
     </header>
   );
