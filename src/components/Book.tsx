@@ -10,7 +10,7 @@ interface BookProps {
 function Book({ title, author, pages, read }: BookProps) {
     return (
         <div className="book">
-            <h1>{title}</h1>
+            <h2>{title}</h2>
             <p>by {author}</p>
             <p>{pages} pages</p>
             <p>{read ? 'Read' : 'Not read'}</p>
