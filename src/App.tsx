@@ -1,6 +1,6 @@
 import AppHeader from "./components/AppHeader"
 import AppFooter from "./components/AppFooter"
-import Book from "./components/Book"
+import Books from "./components/Books"
 
 function App() {
 
@@ -9,7 +9,7 @@ function App() {
     <>
     <AppHeader sitetitle="Home Page" />
 
-    <Book title="The Great Gatsby" author="F. Scott Fitzgerald" pages={180} read={true} />
+    <Books />
       
 
     <AppFooter />
