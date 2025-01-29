@@ -17,6 +17,12 @@ function Books() {
             read: false
         },
         {
+            title: 'Intermezzo',
+            author: 'Sally Rooney',
+            pages: 454,
+            read: false
+        },
+        {
             title: 'The Lion Women of Tehran',
             author: 'Marjan Kamali',
             pages: 327,
@@ -35,11 +41,41 @@ function Books() {
             read: false
         },
         {
-            title: 'A little Life',
+            title: 'A Little Life',
             author: 'Hanya Yanagihara',
             pages: 720,
             read: true
-        }
+        },
+        {
+            title: 'Cloud Atlas',
+            author: 'David Mitchell',
+            pages: 509,
+            read: false
+        },
+        {
+            title: 'A Wild Sheep Chase',
+            author: 'Haruki Murakami',
+            pages: 353,
+            read: true
+        },
+        {
+            title: 'The Tea Girl of Hummingbird Lane',
+            author: 'Lisa See',
+            pages: 384,
+            read: false
+        },
+        {
+            title: 'Hamnet',
+            author: 'Maggie O\'Farrell',
+            pages: 372,
+            read: true
+        },
+        {
+            title: 'Homegoing',
+            author: 'Yaa Gyasi',
+            pages: 305,
+            read: true
+        }       
     ]
 
     return (
