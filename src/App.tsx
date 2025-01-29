@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-    <AppHeader sitetitle="Home Page" />
+    <AppHeader sitetitle="My Books" />
 
     <Books />
       
